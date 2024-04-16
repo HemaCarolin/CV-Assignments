@@ -8,7 +8,7 @@ The code prompts the user to take a 10 seconds video. The video frames are store
 
 A random image was chosen from the video frames to perform CANNY EDGE DETECTION and stored in canny_edge_detection.png.
 
-<img src="Assignment 2/canny_edge_detection.png" alt="Canny Edge Detection">
+<img src="canny_edge_detection.png" alt="Canny Edge Detection">
 
 ___
 
@@ -20,7 +20,7 @@ The detected corner pixels were noted and compared with automated implementation
 
 The solution can be found in the the file 'q2.ipynb'
 
-<img src="Assignment 2/harris_corner_detection.png" alt="Canny Edge Detection">
+<img src="harris_corner_detection.png" alt="Canny Edge Detection">
 
 ___
 
@@ -32,7 +32,7 @@ The Homography matrix was also computed between these images, along with its inv
 
 The solution can be found in the the file 'q3.ipynb'
 
-<img src="Assignment 2/homography.png" alt="Canny Edge Detection">
+<img src="homography.png" alt="Canny Edge Detection">
 
 ___
 
@@ -43,11 +43,11 @@ The code computes and displays the integral image feed alongside the RGB feed wi
 The implementation initializes the integral image to zero, copies pixel values from the grayscale image, and calculates the integral image using the integral image algorithm.
 
 ### Integral Image Matrix
-[Integral Image Matrix File](Assignment2/integral_matrix.txt)
+[Integral Image Matrix File](integral_matrix.txt)
 
 
 ### Integral Image Display for Frame.jpg
-<img src="Assignment 2/integral_image_display.png" alt="integral_image">
+<img src="integral_image_display.png" alt="integral_image">
 
 ___
 
@@ -61,9 +61,9 @@ The implementation involved constructing panoramas from images of home and scien
 Below are the images of Home Buildings used: 
 <table>
   <tr>
-    <td><img src="Assignment 2/image_stitching/building3.jpg" alt="Building 3"></td>
-    <td><img src="Assignment 2/image_stitching/building2.jpg" alt="Building 2"></td>
-    <td><img src="Assignment 2/image_stitching/building1.jpg" alt="Building 1"></td>
+    <td><img src="image_stitching/building3.jpg" alt="Building 3"></td>
+    <td><img src="image_stitching/building2.jpg" alt="Building 2"></td>
+    <td><img src="image_stitching/building1.jpg" alt="Building 1"></td>
   </tr>
 </table>
 
@@ -71,27 +71,27 @@ Below are the images of Science Center used:
 
 <table>
   <tr>
-    <td><img src="Assignment 2/image_stitching/sciencecenter1.jpg" alt="Building 3"></td>
-    <td><img src="Assignment 2/image_stitching/sciencecenter2.jpg" alt="Building 2"></td>
-    <td><img src="Assignment 2/image_stitching/sciencecenter3.jpg" alt="Building 1"></td>
+    <td><img src="image_stitching/sciencecenter1.jpg" alt="Building 3"></td>
+    <td><img src="image_stitching/sciencecenter2.jpg" alt="Building 2"></td>
+    <td><img src="image_stitching/sciencecenter3.jpg" alt="Building 1"></td>
   </tr>
 </table>
 
 ### Home Buildings ORB Stitching : 
 
-<img src="Assignment 2/image_stitching/ORB1.jpg" alt="ORB1.jpg">
+<img src="image_stitching/ORB1.jpg" alt="ORB1.jpg">
 
 ### Home Buildings ORB Stitching, other buildings : 
 
-<img src="Assignment 2/image_stitching/ORB2.jpg" alt="ORB2.jpg">
+<img src="image_stitching/ORB2.jpg" alt="ORB2.jpg">
 
 ### Home Buildings SIFT Stitching : Panaroma : 
 
-<img src="Assignment 2/image_stitching/building_stiched.jpg" alt="building_stiched.jpg">
+<img src="image_stitching/building_stiched.jpg" alt="building_stiched.jpg">
 
 ### Science Center SIFT Stitching : Panaroma : 
 
-<img src="Assignment 2/image_stitching/sciencecent_stiched.jpg" alt="sciencecent_stiched.jpg">
+<img src="image_stitching/sciencecent_stiched.jpg" alt="sciencecent_stiched.jpg">
 
 
 
