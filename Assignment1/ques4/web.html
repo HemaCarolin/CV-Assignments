@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Real World Dimensions Calculator</title>
+    <style>
+        canvas {
+            border: 1px solid black;
+        }
+    </style>
+</head>
+<body>
+    <h1>Real World Dimensions Calculator</h1>
+    <p>Click on two points on the object to measure its dimensions.</p>
+    <canvas id="canvas"></canvas>
+
+    <script>
+        const canvas = document.getElementById('canvas');
+        const ctx = canvas.getContext('2d');
+
+        let points = [];
+        let objectHeight; // Height of the object in pixels
+        let realHeight; // Real height of the object in chosen units (e.g., meters)
+        let distance; // Distance between camera and object in chosen units (e.g., meters)
+
+        // Function to draw points on canvas
+        function drawPoint(x, y) {
+            ctx.beginPath();
+            ctx.arc(x, y, 3, 0, Math.PI * 2);
+            ctx.fillStyle = 'red';
+            ctx.fill();
+        }
+
+        // Function to calculate real-world dimensions
+        function calculateDimensions() {
+            const pixelHeight = Math.abs(points[1].y - points[0].y);
+            const objectSizeRatio = realHeight / objectHeight;
+            const realSize = pixelHeight * objectSizeRatio;
+            const realDistance = Math.sqrt(Math.pow(realSize, 2) - Math.pow(distance, 2));
+            return realDistance;
+        }
+
+        // Function to handle click events
+        function handleClick(e) {
+            const rect = canvas.getBoundingClientRect();
+            const x = e.clientX - rect.left;
+            const y = e.clientY - rect.top;
+            points.push({ x, y });
+            drawPoint(x, y);
+
+            if (points.length === 2) {
+                const realDimension = calculateDimensions();
+                alert(`Real-world dimension of the object: ${realDimension} units`);
+            }
+        }
+
+        canvas.addEventListener('click', handleClick);
+    </script>
+</body>
+</html>
