@@ -101,7 +101,7 @@ def capture_image_and_compute():
         val = round(convert_milli_to_inch(dist * 2), 5)
 
         # Print the diameter of the green vicks bottle circle in centimeters
-        print("Diameter of green vicks bottle circle:", val * 2.54, "cm")
+        print("Diameter of circular object:", val * 2.54, "cm")
 
         # Define the position for the text
         text_x = x - 200
