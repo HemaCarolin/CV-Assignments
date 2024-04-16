@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Final Image</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            background-color: #f4f4f4;
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+            text-align: center;
+        }
+        .container {
+            max-width: 800px;
+            margin: 0 auto;
+            padding: 20px;
+        }
+        h1 {
+            color: #333;
+        }
+        h2 {
+            color: #8a16c8;
+        }
+        img {
+            max-width: 100%;
+            height: auto;
+            margin-top: 20px;
+            border: 1px solid #ddd;
+            border-radius: 5px;
+            box-shadow: 0 2px 4px rgba(0,0,0,0.1);
+        }
+        p {
+            color: #666;
+            line-height: 1.6;
+            margin-top: 20px;
+        }
+        button {
+            background-color: #b01cb7;
+            color: #fff;
+            border: none;
+            padding: 10px 20px;
+            border-radius: 5px;
+            cursor: pointer;
+            transition: background-color 0.3s;
+        }
+        button:hover {
+            background-color: #c608f0;
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <h1>Captured Image</h1>
+        <h2>Computation Sucessful</h2>
+        <h3>Final Image:</h3>
+        <img src="/object_image_with_text" alt="Final Image">
+        <h3>Output:</h3>
+        <p>{{ output_info | safe }}</p>
+        <br>
+        <button onclick="goBack()">Capture Again</button>
+    </div>
+
+    <script>
+        function goBack() {
+            window.history.back();
+        }
+    </script>
+</body>
+</html>
