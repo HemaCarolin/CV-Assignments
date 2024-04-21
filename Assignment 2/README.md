@@ -67,16 +67,6 @@ Below are the images of Home Buildings used:
   </tr>
 </table>
 
-Below are the images of Science Center used: 
-
-<table>
-  <tr>
-    <td><img src="image_stitching/sciencecenter1.jpg" alt="Building 3"></td>
-    <td><img src="image_stitching/sciencecenter2.jpg" alt="Building 2"></td>
-    <td><img src="image_stitching/sciencecenter3.jpg" alt="Building 1"></td>
-  </tr>
-</table>
-
 ### Home Buildings ORB Stitching : 
 
 <img src="image_stitching/ORB1.jpg" alt="ORB1.jpg">
@@ -89,9 +79,28 @@ Below are the images of Science Center used:
 
 <img src="image_stitching/building_stiched.jpg" alt="building_stiched.jpg">
 
-### Science Center SIFT Stitching : Panaroma : 
 
-<img src="image_stitching/sciencecent_stiched.jpg" alt="sciencecent_stiched.jpg">
+___
+
+## Question 6
+
+Integrated the applications developed for problems 4 and 5 with the web application.
+
+[Demo Video Link](https://youtu.be/lAeOesuI-IY)
+
+## Home Page : 
+
+![image](https://github.com/HemaCarolin/CV-Assignments/assets/48021314/c3d7561b-cc22-4538-9afa-650e0abdf504)
+
+
+# Problem 4 Solution : 
+![image](https://github.com/HemaCarolin/CV-Assignments/assets/48021314/da165c02-a207-403d-9b01-02ee08f74b2e)
+
+# Problem 5 Solution : 
+![image](https://github.com/HemaCarolin/CV-Assignments/assets/48021314/671706bc-ae01-4362-946f-d4fbb248fcc2)
+
+
+
 
 
 
