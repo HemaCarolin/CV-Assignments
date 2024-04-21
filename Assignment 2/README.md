@@ -40,6 +40,8 @@ ___
 
 The code computes and displays the integral image feed alongside the RGB feed without relying on built-in functions such as "output = integral_image(input)".
 
+The solution can be found in the the file 'q4.ipynb'
+
 The implementation initializes the integral image to zero, copies pixel values from the grayscale image, and calculates the integral image using the integral image algorithm.
 
 ### Integral Image Matrix
@@ -56,6 +58,9 @@ ___
 The image stitching functionality for creating a 360-degree panoramic output in real-time was successfully implemented, utilizing SIFT or ORB features. 
 
 The implementation involved constructing panoramas from images of home and science buildings without utilizing built-in functions directly performing image stitching.
+
+The solution can be found in the the file 'q5.ipynb'
+
 
 
 Below are the images of Home Buildings used: 
