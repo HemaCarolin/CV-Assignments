@@ -67,7 +67,7 @@ Below are the images of Home Buildings used:
   </tr>
 </table>
 
-### Home Buildings ORB Stitching : 
+### Home Buildings SIFT Stitching : 
 
 <img src="image_stitching/ORB1.jpg" alt="ORB1.jpg">
 
