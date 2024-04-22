@@ -100,8 +100,6 @@ ___
 
 ## Question 7
 
-# Bag of Features
-
 The rotation angle was noted down during the experiment. 
 
 Executed the provided MATLAB tutorial for uncalibrated stereo image rectification using the captured image pairs. Assumptions made during the experiment have been justified in the description provided.
@@ -112,10 +110,6 @@ The solution is in [q7](q7/q7.mlx)
   <img src="https://github.com/HemaCarolin/CV-Assignments/assets/48021314/9decbdef-0907-44c9-836c-6c4216030acd" alt="Image 1" width="400" />
   <img src="https://github.com/HemaCarolin/CV-Assignments/assets/48021314/15ae2d3b-1f8f-40b7-92a4-db9d3f557785" alt="Image 2" width="400" /> 
 </p>
-
-
-
-
 
 ___
 
