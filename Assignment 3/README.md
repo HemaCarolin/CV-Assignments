@@ -84,6 +84,14 @@ The pattern searched here were the blue heart and the purple star. The original 
 
 <img src="q5/oak_image.png" alt="q5/oak_image.png">
 
+# Findings 
+
+<img src="q5/blue_heart_finding.png" alt="q5/blue_heart_finding.png">
+
+<img src="q5/purple_heart_finding.png" alt="q5/purple_heart_finding.png">
+
+
+
 ___
 
 ## Question 6
@@ -95,6 +103,9 @@ For this evaluation, I chose an object category commonly seen in households, nam
 The evaluation involved assessing the accuracy and effectiveness of the Bag of Features approach in classifying these object types, providing insights into its performance in household object recognition tasks."
 
 The solution is in [q6](q6/q6.mlx)
+
+![image](https://github.com/HemaCarolin/CV-Assignments/assets/48021314/d8179b80-d825-4e56-928b-91af35c1740c)
+
 
 ___
 
