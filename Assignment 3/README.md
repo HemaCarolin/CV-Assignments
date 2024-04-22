@@ -96,23 +96,27 @@ The evaluation involved assessing the accuracy and effectiveness of the Bag of F
 
 The solution is in [q6](q6/q6.mlx)
 
-
 ___
 
 ## Question 7
 
 # Bag of Features
 
-For this evaluation, I chose an object category commonly seen in households, namely 'cutlery', and selected five object types: spoon, fork, knife, chopstick, and scissor. 
+The rotation angle was noted down during the experiment. 
 
-The evaluation involved assessing the accuracy and effectiveness of the Bag of Features approach in classifying these object types, providing insights into its performance in household object recognition tasks."
+Executed the provided MATLAB tutorial for uncalibrated stereo image rectification using the captured image pairs. Assumptions made during the experiment have been justified in the description provided.
 
 The solution is in [q7](q7/q7.mlx)
 
 <p float="left">
-  <img src="https://github.com/HemaCarolin/CV-Assignments/assets/48021314/56eb04e7-e920-4c6e-ab73-6f1301ae7d2b" alt="Image 1" width="400" />
-  <img src="https://github.com/HemaCarolin/CV-Assignments/assets/48021314/496d57cb-d633-424a-9236-117a54f639d1" alt="Image 2" width="400" /> 
+  <img src="https://github.com/HemaCarolin/CV-Assignments/assets/48021314/9decbdef-0907-44c9-836c-6c4216030acd" alt="Image 1" width="400" />
+  <img src="https://github.com/HemaCarolin/CV-Assignments/assets/48021314/15ae2d3b-1f8f-40b7-92a4-db9d3f557785" alt="Image 2" width="400" /> 
 </p>
+
+
+
+
+
 ___
 
 
