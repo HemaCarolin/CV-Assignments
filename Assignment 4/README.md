@@ -2,6 +2,21 @@
 # CSc 8830: Computer Vision : Assignment 4 Solutions
 
 ## Question 1
+
+Developed an application that utilizes a stereo camera to recognize, track, and estimate the dimensions of objects within a 3-meter distance and inside the camera's field of view. 
+
+The application achieves this without using machine learning or deep learning tools. Instead, it employs computer vision techniques such as object detection, tracking, and dimension estimation.
+
+Overall, the application provides a robust solution for object tracking and dimension estimation using stereo camera technology, without relying on machine learning or deep learning algorithms.
+
+
+<div align="center">
+  <h2>Application Demonstration</h2>
+  <img src="q1/stream.gif" alt="Application Demonstration">
+</div>
+
+
+
 ___
 
 ## Question 2
