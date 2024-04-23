@@ -1,0 +1,77 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>CV Assignment-4</title>
+    <style>
+        body {
+            font-family:'Courier New', Courier, monospace;
+            background-color: #f2f2f2; /* Light gray background */
+            margin: 0;
+            padding: 0;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            min-height: 100vh;
+        }
+
+        .cv-container {
+            position: relative;
+            background: linear-gradient(135deg, #b1d4d8, #3992a6); /* Green gradient background */
+            box-shadow: 0 10px 20px rgba(0, 0, 0, 0.3);
+            text-align: center;
+            padding: 10%;
+        }
+
+        .cv-title {
+            color: #ffffff; /* White title color */
+            margin-bottom: 20px;
+            font-size: 32px;
+            font-weight: bold;
+        }
+
+        .cv-subtitle {
+            color: #ffffff; /* White subtitle color */
+            margin-bottom: 40px;
+            font-size: 18px;
+        }
+
+        .cv-form {
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+        }
+
+        .cv-label-text {
+            color: #ffffff; /* White label text color */
+            font-size: 16px;
+            margin-bottom: 15px;
+        }
+
+        .cv-submit-btn {
+            background-color: #64b5f6; /* Light blue button color */
+            color: #ffffff; /* White button text color */
+            border: none;
+            padding: 12px 30px;
+            font-size: 16px;
+            border-radius: 8px;
+            cursor: pointer;
+            transition: background-color 0.3s ease;
+        }
+
+        .cv-submit-btn:hover {
+            background-color: #88a000; /* Darker blue on hover */
+        }
+    </style>
+</head>
+<body>
+    <div class="cv-container">
+        <h1 class="cv-title">COMPUTER VISION : Assignment-4</h1>
+        <p class="cv-subtitle">Object Tracking, Recognition & Dimensions Estimation</p>
+        <form action="/livestreaming" method="post" enctype="multipart/form-data" class="cv-form" name="Streaming">
+            <button type="submit" class="cv-submit-btn">Begin Streaming</button>
+        </form>
+    </div>
+</body>
+</html>
